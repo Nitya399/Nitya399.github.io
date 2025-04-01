@@ -11,6 +11,7 @@ import TimelineItem from './components/TimelineItem';
 import Navigation from './components/Navigation';
 import ThemeToggle from './components/ThemeToggle';
 import CertificationCard from './components/CertificationCard';
+import Resume from '../assets/Nitya-Patel-final-resume.pdf'
 
 
 function App() {
@@ -209,7 +210,7 @@ function App() {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <motion.a
-                href= "../dist/assets/resume.pdf"
+                href= "../assets/Nitya-Patel-final-resume.pdf"
                 target="_blank"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
